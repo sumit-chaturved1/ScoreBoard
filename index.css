@@ -1,0 +1,156 @@
+@font-face{
+	font-family: digital;
+	src: url(digital-7.regular.ttf);
+}
+body{
+	margin: 0;
+	text-align: center;
+	background-image: url(baseball2.webp);
+	background-size: cover;
+	background-position: center;
+}
+.container{
+	position: relative;
+	margin: auto;
+	justify-content: space-around;
+	display: flex;
+	background: #1B244A;
+	height: 500px;
+	width: 600px;
+	top: 10px;
+	border: 4px solid black;
+	border-radius: 10px;
+}
+.home-container{
+/*	background: yellow;*/
+	position: absolute;
+	width: 200px;
+	height: 350px;
+	left: 80px;
+	top: 40px;
+}
+.guest-container{
+/*	background: yellow;*/
+	position: absolute;
+	width: 200px;
+	height: 350px;
+	left: 320px;
+	top: 40px;
+}
+.board-txt{
+	color: #EEEEEE;
+	font-family: 'Verdana';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 0px;
+}
+.point-board{
+	position: absolute;
+	background: black;
+	height: 150px;
+	width: 180px;
+	left: 10px;
+	border-radius: 10px;
+}
+#home-point-txt{
+	color: #F94F6D;
+	font-family: digital , sans-serif;
+	font-style: normal;
+	font-size: 100px;
+	margin: 25px;
+}
+#guest-point-txt{
+	color: #F94F6D;
+	font-family: digital, sans-serif;
+	font-style: normal;
+	font-size: 100px;
+	margin: 25px;
+
+}
+.add-points-btn{
+	position: absolute;
+	top: 250px;
+	left: 15px;
+	width: 180px;
+	height: 45px;
+}
+.plus-one-btn{
+	position: absolute;
+	height: 45px;
+	width: 50px;
+	left:0px;
+}
+.plus-two-btn{
+
+	position: absolute;
+	height: 45px;
+	width: 50px;
+	left:60px;
+}
+.plus-three-btn{
+
+	position: absolute;
+	height: 45px;
+	width: 50px;
+	left:120px;
+}
+button{
+	border-radius: 5px;
+	background: none;
+	height: 45px;
+	width: 50px;
+	border: 2px solid #9AABD8;;
+}
+.btn-txt{
+	color: #9AABD8;
+	font-family: digital;
+	font-weight: 400;
+	font-size: 25px;
+	margin: 0;
+
+}
+.result-container{
+	position: absolute;
+	bottom: 90px;
+	width: 500px;
+	height: 60px;
+	background: black;
+	border-radius: 10px;
+}
+#result-txt{
+	color: #F94F6D;
+	font-family: digital , sans-serif;
+	font-size: 40px;
+	margin: 10px;
+}
+.end-reset-container{
+	position: absolute;
+	bottom: 30px;
+	width: 500px;
+
+}
+.end-btn-box{
+	position: absolute;
+	width: 100px;
+	left: 20px;
+	background: black;
+}
+.end-btn{
+	position: absolute;
+	width: 100px;
+	left:0px;
+	bottom: 0;
+}
+.reset-btn-box{
+	position: absolute;
+	width: 100px;
+	right: 20px;
+	background: black;
+}
+.reset-btn{
+	position: absolute;
+	width: 100px;
+	left:0px;
+	bottom: 0;
+}

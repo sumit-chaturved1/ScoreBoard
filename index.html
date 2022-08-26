@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ScoreBoard</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+	<link rel="icon" href="favicon.ico">
+</head>
+<body>
+	<div class="container">
+		<div class="result-container">
+			<p id="result-txt"></p>
+		</div>
+		<div class="end-reset-container">
+			<div class="end-btn-box">
+				<button class="end-btn" onclick="end()"><p class="btn-txt">END</p></button>
+			</div>
+			<div class="reset-btn-box">
+				<button class="reset-btn" onclick="reset()"><p class="btn-txt">RESET</p></button>
+			</div>
+		</div>
+		<div class="guest-container">
+			<h3 class="board-txt">GUEST</h3>
+			<div class="point-board">
+				<p id="guest-point-txt"></p>
+			</div>
+			<div class="add-points-btn">
+				<div class="plus-one-btn">
+					<button onclick="plusOneGuest()"><p class="btn-txt">+1</p></button>
+				</div>
+				<div class="plus-two-btn">
+					<button onclick="plusTwoGuest()"><p class="btn-txt">+2</p></button>
+				</div>
+				<div class="plus-three-btn">
+					<button onclick="plusThreeGuest()"><p class="btn-txt">+3</p></button>
+				</div>
+			</div>
+		</div>
+		<div class="home-container">
+			<h3 class="board-txt">HOME</h3>
+			<div class="point-board">
+				<p id="home-point-txt"></p>
+			</div>
+			<div class="add-points-btn">
+				<div class="plus-one-btn">
+					<button onclick="plusOneHome()"><p class="btn-txt">+1</p></button>
+				</div>
+				<div class="plus-two-btn">
+					<button onclick="plusTwoHome()"><p class="btn-txt">+2</p></button>
+				</div>
+				<div class="plus-three-btn">
+					<button onclick="plusThreeHome()"><p class="btn-txt">+3</p></button>
+				</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<script type="text/javascript" src="index.js"></script>
+</body>
+</html>
